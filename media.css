@@ -1,0 +1,147 @@
+@media screen and (max-width: 1100px) {
+  /* ------------------ */
+  .main-container {
+    max-width: 800px;
+  }
+  .banner_foto {
+    width: 170px;
+  }
+  .banner-content-header {
+    font-size: 25px;
+    width: 200px;
+  }
+  .banner-bottom-text {
+    border-bottom: 15px;
+    left: 15px;
+    font-size: 16px;
+  }
+  .foto {
+    padding-top: 20px;
+  }
+  /* ------------------ */
+  .text_title {
+    font-size: 20px;
+  }
+  .text p {
+    font-size: 17px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  /* ---------------- */
+  .banner_foto {
+    width: 160px;
+  }
+  .banner-content-header {
+    font-size: 18px;
+    width: 180px;
+  }
+  /* ---------------- */
+  .text_title {
+    font-size: 15px;
+  }
+  .text p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  /* -------------- */
+  .place_title {
+    font-size: 15px;
+  }
+  .place_img_desc {
+    width: 150px;
+    height: 80px;
+    font-size: 20px;
+  }
+  .place_desc_container {
+    margin-top: 50px;
+    font-size: 14px;
+  }
+  .place_img_desk_container {
+    bottom: -45px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .banner-content-header {
+    font-size: 16px;
+    width: 180px;
+  }
+  .banner_foto {
+    width: 120px;
+  }
+  .banner-bottom-text {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* ------------- */
+  .banner {
+    grid-template-columns: 1fr;
+  }
+  .banner-content {
+    padding-left: 0;
+    grid-template-areas: "header" "foto" "foto_1";
+    grid-gap: 8px 0;
+  }
+  .banner-content-header {
+    width: 100%;
+    margin-top: 30px;
+    font-size: 28px;
+    text-align: center;
+  }
+  .banner_foto {
+    width: 100%;
+  }
+  .banner-bottom-text {
+    bottom: 20px;
+    left: 20px;
+    font-size: 20px;
+  }
+  /* ---------------- */
+  .text_title {
+    font-size: 20px;
+  }
+  .text_body {
+    padding: 5px 22.5px;
+  }
+  .text p {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+  }
+  /* --------------------- */
+  .place_title {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+  .place {
+    grid-template-columns: 1fr;
+  }
+  .place_img_desc {
+    width: 200px;
+    height: 100px;
+    font-size: 24px;
+  }
+  .place_desc_container {
+    margin-top: 70px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .place_item {
+    padding: 10px 0px;
+  }
+  .place_desc_container {
+    text-align: center;
+    font-size: 16px;
+  }
+  .place_img_desc {
+    width: 160px;
+    height: 80px;
+    font-size: 20px;
+  }
+}
